@@ -128,6 +128,31 @@ section h3 {
   border-left: 3px solid #3949ab;
   padding: 4px 8px;
   border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.participant-email {
+  flex: 1;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #c62828;
+  padding: 0 4px;
+  line-height: 1;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+
+.delete-btn:hover {
+  opacity: 1;
+  background: none;
 }
 
 .participants-list li.no-participants {
